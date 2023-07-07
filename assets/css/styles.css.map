@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		".current {\n\tcolor: green;\n};\n\nbody {\n\tfont-family: \"Courier New\", monospace;\n};\n\nnav.menu {\n\tdisplay: block;\n\tbackground-color: yellow;\n};\nul {\n\tlist-style: none\n};\n.b_post {\n\t//background-color: red;\n\twidth: 80%;\n\tborder: 2px solid grey;\n\tpadding: 5px;\n\tmargin: 2px;\n};\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACR,KAAK,EAAE,KAAK,GACZ;;AAED,AAAA,IAAI,CAAC,EACJ,WAAW,EAAE,wBAAwB,GACrC;;AAED,AAAA,GAAG,AAAA,KAAK,CAAC,EACR,OAAO,EAAE,KAAK,EACd,gBAAgB,EAAE,MAAM,GACxB;;AACD,AAAA,EAAE,CAAC,EACF,UAAU,EAAE,IACb,GAAC;;AACD,AAAA,OAAO,CAAC,EAEP,KAAK,EAAE,GAAG,EACV,MAAM,EAAE,cAAc,EACtB,OAAO,EAAE,GAAG,EACZ,MAAM,EAAE,GAAG,GACX"
+}

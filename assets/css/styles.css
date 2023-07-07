@@ -1,0 +1,11 @@
+.current { color: green; }
+
+body { font-family: "Courier New", monospace; }
+
+nav.menu { display: block; background-color: yellow; }
+
+ul { list-style: none; }
+
+.b_post { width: 80%; border: 2px solid grey; padding: 5px; margin: 2px; }
+
+/*# sourceMappingURL=styles.css.map */
