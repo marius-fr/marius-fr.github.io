@@ -11,6 +11,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>http://nordover.neocities.org/code/python/230707-Create-a-game/</loc>
+         <lastmod>2023-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://nordover.neocities.org/code/python/game/</loc>
+         <lastmod>2023-07-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>http://nordover.neocities.org/posts/230702-Programming/</loc>
          <lastmod>2023-07-08</lastmod>
          <changefreq>daily</changefreq>
