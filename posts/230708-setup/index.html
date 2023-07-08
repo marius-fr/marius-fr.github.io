@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="nordover" /><link rel="canonical" href="http://nordover.neocities.org/posts/230708-setup/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="nordover" /><link rel="canonical" href="http://marius-fr.github.io/posts/230708-setup/" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Current setup - Yet another blog</title>
+    <title>Current setup - Yet another boring blog</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
@@ -32,21 +32,22 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="../.." class="icon icon-home"> Yet another blog
+          <a href="../.." class="icon icon-home"> Yet another boring blog
         </a>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Home</span></p>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../../about/">About</a>
-                </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../..">Index</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/">About</a>
+                  </li>
               </ul>
               <p class="caption"><span class="caption-text">Code</span></p>
               <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../code/230702-Programming/">(Re)Learning programming</a>
+                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="#">Python</a>
     <ul>
                 <li class="toctree-l2"><a class="reference internal" href="../../code/python/game/">Making a game</a>
@@ -58,11 +59,17 @@
               <ul class="current">
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">Current setup</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#hardware">Hardware</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#why-x220">Why X220?</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#why-debian">Why Debian?</a>
+    </li>
+        </ul>
+    </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../230707-Selecting-a-ssg/">Selecting a SSG</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../230702-Programming/">(Re)Learning programming</a>
                   </li>
               </ul>
       </div>
@@ -72,7 +79,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../..">Yet another blog</a>
+          <a href="../..">Yet another boring blog</a>
         
       </nav>
       <div class="wy-nav-content">
@@ -104,6 +111,27 @@ Having everything on GitHub will probably make it easier for me in the long run.
  - Neoclide Coc
  - auto-pairs (buggy for my use)
  - Rust.vim</p>
+<h2 id="hardware">Hardware</h2>
+<p>So my current machine setup has been expanded somewhat. I purchased a old Lenovo Thinkpad X220 to tinker with. I'm not actually sure exactly how old the machine is, but I think its from 2012 or 2013.
+Other specs are:</p>
+<ul>
+<li>CPU: i7 something</li>
+<li>RAM: 8 Gigs</li>
+<li>HDD: SSD with 120 Gigs of storage</li>
+<li>12" screen</li>
+<li>Extra large battery</li>
+</ul>
+<p>So not exactly a beast of a machine compared to today's standard. Battery is at about 50% capacity compared to new, but i still get about 3-4 hours of light use.</p>
+<p>Currently I have Debian 12 installed, and running i3wm as a GUI. Again, a pretty simple setup that doesn't require a ton of resources and saves on battery life.</p>
+<p>I also have a old mac mini running debian that acts as a server for anything that might require some more power, since the battery on the X220 is pretty worn out.</p>
+<h3 id="why-x220">Why X220?</h3>
+<p>The past few months I've been wanting to get back into computers again, particularly some light programming and general tinkering. I already have a Mac Mini (2012-2013?) set up with Debian as a home server, but wanted something portable to use as well.</p>
+<p>Having done some research, older Lenovo machines, and the X220 seems well supported by Linux, all the hardware I need to work, worked out-of-the-box with minimal fuzz. The physical size of the machine is small, so its easy to stash anywhere. Awesome keyboard to type on.</p>
+<h3 id="why-debian">Why Debian?</h3>
+<p>Why not. I'm a old Slackware user, but grew tired of all the work having to be put in to get it to where I wanted it to be.
+Research before buying anything showed that debian installed flawlessly on the X220, and everything has worked out of the box.
+The only issue I have is i3wm not having a easy way to suspend the machine, I'm sure there is a way, I just havent had time
+to figure it out yet.</p>
               
             </div>
           </div><footer>
@@ -116,11 +144,11 @@ Having everything on GitHub will probably make it easier for me in the long run.
 
   <div role="contentinfo">
     <!-- Copyright etc -->
+      <p>(c) marius-fr 2023</p>
   </div>
-<!---
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+  Built with <a href="https://www.mkdocs.org/">Mkdocs</a> using a modified theme provided by <a href="https://readthedocs.org/">readthedocs</a>.
 </footer>
--->
           
         </div>
       </div>
