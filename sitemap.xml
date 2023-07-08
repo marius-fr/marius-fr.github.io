@@ -11,12 +11,20 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+<<<<<<< HEAD
          <loc>http://marius-fr.github.io/code/230702-Programming/</loc>
+=======
+         <loc>http://marius-fr.github.io/code/python/game/</loc>
+>>>>>>> refs/remotes/origin/main
          <lastmod>2023-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+<<<<<<< HEAD
          <loc>http://marius-fr.github.io/code/python/game/</loc>
+=======
+         <loc>http://marius-fr.github.io/posts/230702-Programming/</loc>
+>>>>>>> refs/remotes/origin/main
          <lastmod>2023-07-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
