@@ -93,10 +93,10 @@
               
                 <h1 id="finding-hits-in-rows-and-columns">Finding hits in rows and columns</h1>
 <p>I have to figure out a way to check each row and column for consecutive blocks in images, i.e.:</p>
-<pre><code>   1 1
-  -----
-2| 1 1
-0| 0 0
+<pre><code>      1 1 0 1
+    -----
+2  1| 1 1 0 1
+0  0| 0 0 0 0
 
 </code></pre>
 <p>And I am having a little trouble figuring it out. The 'correct' solution seems to be to use
