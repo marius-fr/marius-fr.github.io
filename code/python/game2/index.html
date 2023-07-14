@@ -52,6 +52,8 @@
     <ul class="current">
                 <li class="toctree-l2 current"><a class="reference internal current" href="./">Finding "hits"</a>
     <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#solution">Solution</a>
+    </li>
     </ul>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../game/">Making a game</a>
@@ -100,7 +102,11 @@
 
 </code></pre>
 <p>And I am having a little trouble figuring it out. The 'correct' solution seems to be to use
-recursion to parse each row/column and have a look-ahead to see if the next cell has something in it. It might also be possible to just use space for empty image cells, and any value for image, and iterate thru words.</p>
+recursion to parse each row/column and have a look-ahead to see if the next cell has something in it. 
+It might also be possible to just use space for empty image cells, and any value for image, and iterate thru words.</p>
+<h2 id="solution">Solution</h2>
+<p>Recursion would probably be a better(?) solution, but I went with a simpler solution where I just iterate thru the list.
+Single list is complete, now to figure out how to do it with the double list.</p>
               
             </div>
           </div><footer>
