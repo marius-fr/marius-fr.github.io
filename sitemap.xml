@@ -31,12 +31,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>http://marius-fr.github.io/code/python/game3/</loc>
+         <lastmod>2023-07-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>http://marius-fr.github.io/posts/230707-Selecting-a-ssg/</loc>
          <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://marius-fr.github.io/posts/230708-setup/</loc>
+         <lastmod>2023-07-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://marius-fr.github.io/posts/230721-Vim/</loc>
          <lastmod>2023-07-21</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="nordover" /><link rel="canonical" href="http://marius-fr.github.io/code/230702-Programming/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="nordover" /><link rel="canonical" href="http://marius-fr.github.io/posts/230721-Vim/" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>(Re)Learning programming - Yet another boring blog</title>
+    <title>Vim setup - Yet another boring blog</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "(Re)Learning programming";
-        var mkdocs_page_input_path = "code/230702-Programming.md";
-        var mkdocs_page_url = "/code/230702-Programming/";
+        var mkdocs_page_name = "Vim setup";
+        var mkdocs_page_input_path = "posts/230721-Vim.md";
+        var mkdocs_page_url = "/posts/230721-Vim/";
       </script>
     
     <script src="../../js/jquery-3.6.0.min.js" defer></script>
@@ -47,37 +47,29 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Code</span></p>
-              <ul class="current">
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">(Re)Learning programming</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#why-python">Why Python</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#why-rust">Why rust?</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#dev-setup">Dev setup</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#update">Update</a>
-    </li>
-    </ul>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../code/230702-Programming/">(Re)Learning programming</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="#">Python</a>
     <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../python/game3/">Changing things</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../code/python/game3/">Changing things</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../python/game2/">Finding "hits"</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../code/python/game2/">Finding "hits"</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../python/game/">Making a game</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../code/python/game/">Making a game</a>
                 </li>
     </ul>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Blog</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../posts/230721-Vim/">Vim setup</a>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Vim setup</a>
+    <ul class="current">
+    </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../posts/230708-setup/">Current setup</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../230708-setup/">Current setup</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../posts/230707-Selecting-a-ssg/">Selecting a SSG</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../230707-Selecting-a-ssg/">Selecting a SSG</a>
                   </li>
               </ul>
       </div>
@@ -94,8 +86,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Code &raquo;</li>
-      <li>(Re)Learning programming</li>
+          <li>Blog &raquo;</li>
+      <li>Vim setup</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -104,26 +96,21 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="relearning-programming">(Re)Learning programming</h1>
-<p>Decided to take a look at programming again, its been years since i last played around with it. 
-Was on the fence about where to start but looks like it will be both Python and Rust.</p>
-<h2 id="why-python">Why Python</h2>
-<p>I need something easy(?) to start out with, that is well documented and has a big user mass.</p>
-<h2 id="why-rust">Why rust?</h2>
-<p>Why not? Its a relatively low-level language, which i always wanted to learn. 
-I also considered Go, but for no obvious reason decided to go with Rust. Python is also still being considered.</p>
-<h2 id="dev-setup">Dev setup</h2>
-<p>Current computer setup is as in another post, old laptop basically as a thin client, ssh into a old mac mini. 
-Using tmux, vim with a whole load of plugins. Will make a post about my current vim setup later.</p>
-<h2 id="update">Update</h2>
-<p>Rust is on hold for now. Been looking more and more into C, both with 
-K&amp;N The C Programming Language and K.N. Kings C: A modern approach</p>
+                <h1 id="vim-setup">Vim setup</h1>
+<p>I've been using Vim for years, quite some time since I used it regularly.
+Lately I have been trying out different setups and plugins, but it ended
+up feeling kind of bloated, messy and eventually I lost track of what plugin
+did what. </p>
+<p>So now I've cut down on alot, if not all of the plugins. I currently just 
+have Plugged to manage the two plugins i use, <strong>NerdTree</strong> and <strong>vim-fugitive</strong>.
+Not sure if <strong>fugitive</strong> is working correctly, but I havent had time to look
+into it yet.</p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../../software/" class="btn btn-neutral float-left" title="Software"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../python/game3/" class="btn btn-neutral float-right" title="Changing things">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../code/python/game/" class="btn btn-neutral float-left" title="Making a game"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../230708-setup/" class="btn btn-neutral float-right" title="Current setup">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -147,10 +134,10 @@ K&amp;N The C Programming Language and K.N. Kings C: A modern approach</p>
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../../software/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../../code/python/game/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../python/game3/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../230708-setup/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
